@@ -7,7 +7,7 @@ import {
 } from "react-icons/hi2"
 import { signOut } from "next-auth/react";
 
-import useConversation from "./useConverstaion";
+import useConversation from "./useConversation";
 
 const useRoutes = () => {
     const pathname = usePathname();

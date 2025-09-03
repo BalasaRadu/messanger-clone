@@ -1,6 +1,6 @@
 "use client"
 
-import useConversation from "@/app/hooks/useConverstaion";
+import useConversation from "@/app/hooks/useConversation";
 import axios from "axios";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 import { HiPaperAirplane, HiPhoto } from "react-icons/hi2";
@@ -74,7 +74,7 @@ const Form = () => {
                         bg-sky-500
                         cursor-pointer
                         hover:bg-sky-600
-                        tranisiton
+                        transition
                     ">
                     <HiPaperAirplane 
                         size={18}

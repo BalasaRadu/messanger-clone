@@ -31,7 +31,8 @@ const Input:React.FC<InputProps> = ({
             <label 
                 className="
                     block
-                    text-smfont-medium
+                    text-sm
+                    font-medium
                     leading-6
                     text-gray-900
                 "
@@ -57,7 +58,7 @@ const Input:React.FC<InputProps> = ({
                             ring-1
                             ring-insert
                             ring-gray-300
-                            placerholder:text-gray-400
+                            placeholder:text-gray-400
                             focus:ring-2
                             focus:ring-insert
                             focus:ring-sky-600

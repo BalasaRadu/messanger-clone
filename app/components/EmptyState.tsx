@@ -11,7 +11,7 @@ const EmptyState = () => {
                 justify-center
                 items-center
                 bg-gray-100">
-            <div className="text-center items-center felx flex-col">
+            <div className="text-center items-center flex flex-col">
                 <h3 className="
                         mt-2
                         text-2xl
