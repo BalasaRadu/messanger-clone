@@ -1,16 +1,19 @@
-A full-stack real-time messenger application built with Next.js 14, MongoDB, Prisma, NextAuth.js, and Pusher. It supports secure authentication, real-time messaging, group chats, image sharing, and a modern responsive UI.
+# Real-Time Messenger 
+A **full-stack real-time messenger application** built with **Next.js 14**, **MongoDB Atlas**, **Prisma**, **NextAuth.js**, and **Pusher**.  
+It provides secure authentication, lightning-fast messaging, group conversations, media sharing, and a modern responsive UI.  
 
-## Features
- - **Real-Time Messaging** – Instant conversations and status tracking (online/offline) powered by _Pusher_.
- - **Authentication** - Login/register with NextAuth.js, supporting multiple authentication strategies, including credential-based login and social sign-ins with both _Google_ and _GitHub_.
- - **Persistent Storage** – All user data, conversations, and messages references are securely stored in _MongoDB Atlas_, ensuring scalability and reliability.
- - **Group Messaging** – Users can create, join, and manage group conversations.
- - **Media Uploads** – Image uploading and sharing with _Cloudinary_ integration.
- - **Notifications** – User-friendly feedback with _react-hot-toast_.
- - **User Interface**: A modern and fully responsive design crafted using _Tailwind CSS_.
-- **Form Handling** – Smooth validation and submission using _react-hook-form_.
+## 🚀 Features
 
-## Dependencies
+- **Real-Time Messaging** – Exchange messages instantly with live updates and presence tracking (**online/offline**) powered by _Pusher_.  
+- **Authentication** – Sign up or log in using _NextAuth.js_, with support for credentials, _Google_, and _GitHub_ authentication.  
+- **Persistent Storage** – Store all users, conversations, and messages securely in _MongoDB Atlas_, ensuring reliability and scalability.  
+- **Group Messaging** – Create, join, and manage group conversations with multiple participants.  
+- **Media Uploads** – Share images seamlessly using _Cloudinary_ integration.  
+- **Notifications** – User-friendly feedback with _react-hot-toast_.  
+- **User Interface** – A clean, responsive, and modern design built with _Tailwind CSS_.  
+- **Form Handling** – Smooth validation and submission powered by _react-hook-form_.  
+
+## 📦 Dependencies
 This project leverages modern libraries and frameworks to ensure scalability and performance:
 
  - Next.js 14 – React framework for full-stack apps.
@@ -72,14 +75,3 @@ npm run dev
 ```
 
 Visit [http://localhost:3000](http://localhost:3000)
-
-## 📸 Screenshots  
-
-### Login Page  
-![Login Page](./public/readme/login.png)  
-
-### Chat Interface  
-![Chat Interface](./public/readme/chat.png)  
-
-### Group Chat Example
-![Group Chat](./public/readme/group-chat.png)  
